@@ -3,12 +3,12 @@ from django.utils.translation import gettext_lazy as _
 
 
 class WayforpayConfig(AppConfig):
-    name = 'box.apps.sw_payment.wayforpay'
+    name = 'sw_wayforpay'
     verbose_name = _("Wayforpay")
     verbose_name_plural = verbose_name
 
 
-default_app_config = 'box.apps.sw_payment.wayforpay.WayforpayConfig'
+default_app_config = 'sw_wayforpay.WayforpayConfig'
 
 
 
